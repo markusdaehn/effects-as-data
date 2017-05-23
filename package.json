@@ -1,0 +1,38 @@
+{
+  "name": "effects-as",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha ./src/**/*.spec.js",
+    "lint": "esw .eslintrc.js src/ lib/ tests/ -w --fix --ignore-pattern !.eslintrc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusdaehn/effects-as-data.git"
+  },
+  "keywords": [
+    "effects-as-data",
+    "effects",
+    "side-effects",
+    "data"
+  ],
+  "author": "Markus Daehn <markus.daehn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markusdaehn/effects-as-data/issues"
+  },
+  "homepage": "https://github.com/markusdaehn/effects-as-data#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "eslint-watch": "^3.1.0",
+    "prettier": "^1.2.2",
+    "prettier-eslint": "^5.1.0",
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "fn-args": "^3.0.0"
+  }
+}
